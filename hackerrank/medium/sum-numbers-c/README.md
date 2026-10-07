@@ -46,16 +46,12 @@ Print the sum and difference of both integers separated by a space on the first 
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T10:04:18.519Z  
+**Submitted:** 2026-10-07T10:16:14.542Z  
 
 ```c
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
 
-int main()
-{
+int main() {
     int a, b;
     float c, d;
 
@@ -64,6 +60,7 @@ int main()
 
     printf("%d %d\n", a + b, a - b);
     printf("%.1f %.1f\n", c + d, c - d);
+
     return 0;
 }
 
