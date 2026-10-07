@@ -1,12 +1,6 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
 
-
-
-int main() 
-{
+int main() {
     int a, b;
     scanf("%d\n%d", &a, &b);
 
@@ -23,6 +17,5 @@ int main()
     }
 
     return 0;
-}// Complete the code.
-
+}
 
