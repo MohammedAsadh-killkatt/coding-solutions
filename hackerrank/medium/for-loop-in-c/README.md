@@ -52,18 +52,12 @@ Print the appropriate English representation,`even`, or `odd`, based on the cond
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T10:07:47.439Z  
+**Submitted:** 2026-10-07T10:18:10.260Z  
 
 ```c
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
 
-
-
-int main() 
-{
+int main() {
     int a, b;
     scanf("%d\n%d", &a, &b);
 
@@ -80,8 +74,7 @@ int main()
     }
 
     return 0;
-}// Complete the code.
-
+}
 
 
 ```
